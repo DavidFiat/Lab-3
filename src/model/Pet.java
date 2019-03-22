@@ -3,6 +3,14 @@ package model;
 
 public class Pet {
 	
+	
+	// Constants
+	
+	public final static String GATO = "Gato";
+	public final static String PERRO = "Perro";
+	public final static String AVE = "Ave";
+	public final static String OTRO = "Otro";
+	
 	// Attributes
 	
 	private String name;

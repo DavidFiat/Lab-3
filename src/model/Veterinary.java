@@ -3,9 +3,19 @@ package model;
 
 public class Veterinary {
 	
-	// Attributes
-
+	// Constants
 	
+	
+	
+	public final static int ROOMS_NUMBER = 8;
+	
+
+
+
+
+	// Attributes
+	
+
 	private String name;
 	
 
