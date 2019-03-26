@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Arraylist;
+
 
 public class Veterinary {
 	
@@ -17,6 +19,8 @@ public class Veterinary {
 	
 
 	private String name;
+	private Room[] rooms;
+	private ArrayList<Client> clients;
 	
 
 
@@ -28,7 +32,8 @@ public class Veterinary {
 	 public Veterinary(String name) {
 	
 		this.name = name;
-
+		clients = new ArrayList<>();
+		rooms= new Room[ROOMS_NUMBER];
 	}
 	
 	public String getName() {
@@ -39,7 +44,28 @@ public class Veterinary {
 		this.name = name;
 	}
 	
-
+	public String addClient(Client add) {
+		
+	String message = "The client was added successfully";
+		
+	clients.add(add);
+		
+	return message; 
+	 
+	 
+	 public void setCurrentDate(Date actual){
+		
+		
+		
+	this.actual=actual;
+		
+	}
+	 
+	 
+	 
+	 	 
+	
+}
 	
 	
 /*	
@@ -140,29 +166,9 @@ public class Veterinary {
 		
 	}
 	
-	public void setCurrentDate(Date actual){
-		
-		
-		
-		this.actual=actual;
-		
-	}
-	 
-	 
-	public String addKangaroo(Kangaroo add , int num) {
-		
-	String message = "";
-		
-	message += kZone.addKangaroo(add, num);
-		
-	return message; 
-	 
-	 
-	 
-	 
-	 	 
+
 	
-}
 */
+
 
 }

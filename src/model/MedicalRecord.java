@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Arraylist;
+
 
 public class MedicalRecord {
 	
@@ -26,7 +28,8 @@ public class MedicalRecord {
 	 }
 		
 	public String getSymtom() {
-		return symptom;
+		String message1=symptom;
+		return message1;
 	}
 	public void setSymptom(String symptom) {
 		this.symptom = symptom;
@@ -45,7 +48,7 @@ public class MedicalRecord {
 		this.date = date;
 	}
 	
-	public double getRoom(){
+	public Room getRoom(){
 		return room;
 	} 
 	
