@@ -1,6 +1,6 @@
 package model;
 
-import java.util.Arraylist;
+import java.util.ArrayList;
 
 
 public class MedicalRecord {

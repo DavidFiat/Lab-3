@@ -1,6 +1,6 @@
 package model;
 
-import java.util.Arraylist;
+import java.util.ArrayList;
 
 
 public class Veterinary {
@@ -21,8 +21,8 @@ public class Veterinary {
 	private String name;
 	private Room[] rooms;
 	private ArrayList<Client> clients;
-	
-
+	private ArrayList<MedicalRecord> medicalRecords;
+	private ArrayList<Medicine> medicines2;
 
 	
 	
@@ -53,8 +53,7 @@ public class Veterinary {
 	return message; 
 	 
 	 
-	 public void setCurrentDate(Date actual){
-		
+	/* public void setCurrentDate(Date actual){
 		
 		
 	this.actual=actual;
@@ -68,7 +67,6 @@ public class Veterinary {
 }
 	
 	
-/*	
 	
     public String showDragon(){
 	   
@@ -171,4 +169,5 @@ public class Veterinary {
 */
 
 
+}
 }

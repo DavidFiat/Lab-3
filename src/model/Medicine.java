@@ -23,7 +23,7 @@ public class Medicine {
 
 	}
 	
-	public double getName() {
+	public String getName() {
 		return name;
 	}
 	public void setName(String name) {

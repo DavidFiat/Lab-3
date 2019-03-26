@@ -24,13 +24,13 @@ public class Room {
 	
 	}
 	
-	public double getAvailability() {
+	public String getAvailability() {
 		return availability;
 	}
 	public void setAvailability(String availability) {
 		this.availability = availability;
 	}
-	public double getPet() {
+	public Pet getPet() {
 		return pet;
 	}
 	public void setPet(Pet pet) {
