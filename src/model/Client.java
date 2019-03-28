@@ -64,18 +64,10 @@ public class Client {
 	}	
 		
 		
-	public ArrayList<Pet> getPets(){
-	 return pets;
-	}
+
 	
-	public void setPets(ArrayList<Pet> pets){
-	 this.pets = pets;
-	}
 
-	public void addPet(ArrayList<Pet> newPets ){
-	pets = newPets;
 
-	}	
 		
 		
 	
