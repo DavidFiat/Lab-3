@@ -1,3 +1,5 @@
+
+
 package model;
 
 
@@ -6,10 +8,10 @@ public class Pet {
 	
 	// Constants
 	
-	public final static String GATO = "Gato";
-	public final static String PERRO = "Perro";
-	public final static String AVE = "Ave";
-	public final static String OTRO = "Otro";
+	public final static String CAT = "Cat";
+	public final static String DOG = "Dog";
+	public final static String BIRD = "Bird";
+	public final static String OTHER = "Other";
 	
 	// Attributes
 	

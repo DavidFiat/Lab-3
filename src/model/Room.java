@@ -5,8 +5,6 @@ public class Room {
 	
 	// Attributes
 
-
-	
 	private String availability;
 
 	
