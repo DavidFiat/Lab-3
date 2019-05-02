@@ -20,6 +20,8 @@ public class Main {
  
 	}
 	
+	
+	
 	public static void main(String[] args) {
 
 		Main m = new Main();
@@ -30,6 +32,13 @@ public class Main {
 			
 		
 	}
+		
+	/** 
+	*Description This method creates the test values for each object.
+	*post: The test values are saved in the program for prove other methods.
+	*/
+		
+		
 		
 		public void init(){
 		
@@ -43,15 +52,12 @@ public class Main {
 	
 	
 	
-	
-	
-	
-	
-
-	
-	
-	
-	
+	/**
+	*Description This method ask to the client and save the actual date.
+	*pre: The day, the month and the year are given in numbers.
+	*pre: None of the data have a zero at the beginning.
+	*post: The current date is saved in the program.
+	*/
 				
     public void initDate(){
 		
@@ -70,13 +76,19 @@ public class Main {
 	
 	
 	
-		
+	/**
+	*Description This method shows a menu with all the options the client can select.
+	*pre: The option must be a number.
+	*post: The options selected are showed and the program is modified by the client.
+	*/
+	
 	
 	
 	
 	public void showMenu(){
+		
 		int option = 0;
-		while (option != 12){
+		while (option != 11){
 			
 
 			
@@ -119,65 +131,13 @@ public class Main {
               
                case (1):
 			   
-			   
-			    System.out.println("");
-				String y=reader.nextLine();
-			   
-			   System.out.println("Type client's name");
-				String name=reader.nextLine();
-				
-				System.out.println("Type client's ID");
-				int id = reader.nextInt();
-				reader.nextLine();
-				
-				System.out.println("Type Client' s address");
-				String address = reader.nextLine();
-				reader.nextLine();
-				
-				
-				System.out.println("Type client' s cellphone");
-				int cellphone = reader.nextInt();
-				
-				
-				
-				Client add = new Client(name, id, address, cellphone);
-				
-				System.out.println("Type the number of pets that you have");
-				int petsNumber = reader.nextInt();
-				reader.nextLine();
-				
-				
-				
-				ArrayList<Pet> newPets = new ArrayList<Pet>();
-				
-				for(int i = 0; i < petsNumber; i++){
-				System.out.println("Type animal's name");
-				String name1=reader.nextLine();
-				
-				System.out.println("Type animal's type (DOG, CAT, BIRD, OTHER)");
-				String type=reader.nextLine();
-				
-				
-				System.out.println("Type client's age");
-				int age = reader.nextInt();
-				reader.nextLine();
-				
-				System.out.println("Type Client' s weight");
-				double weight = reader.nextDouble();
-				reader.nextLine();
-				
-								
-				Pet add1 = new Pet(name1, type, age, weight);
-				
-				newPets.add(add1);
-				vet1.addClient(add,add1);
-				System.out.println("The client was added successfully with his/her pet(s)");
-				}
+			 
 				
 				
 				break;
 				
 			
+			   case (2):
 			   
 
 			   
@@ -231,13 +191,12 @@ public class Main {
 
 			
 		}
-		
-		
-		
-		
-		
-		
+				
+			
 	}
+	
+	
+	
 	
 	
 

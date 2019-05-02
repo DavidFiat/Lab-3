@@ -19,6 +19,8 @@ public class Pet {
 	private String type;
 	private int age;
 	private double weight;
+	private double height
+	
 
 	
 		
@@ -30,12 +32,13 @@ public class Pet {
 	 //Methods
 	 
 	 
-	 public Pet(String name, String type, int age, double weight, MedicalRecord medRecord) {
+	 public Pet(String name, String type, int age, double weight, double height, MedicalRecord medRecord) {
 	
 		this.name = name;
 		this.type = type;
 		this.age = age;
 		this.weight = weight;
+		this.height = height;
 			
 	}
 	
@@ -68,6 +71,13 @@ public class Pet {
 		this.weight = weight;
     }
 	
+	public double getHeight() {
+		return height;
+	}
+	public void setHeight(double height) {
+		this.height = height;
+    }
+	
 	public MedicalRecord getMedicalRecord() {
 		return medRecord;
 	}
@@ -77,8 +87,20 @@ public class Pet {
 	
 	
 	
-			
-			
+	/**
+	Description This method allows to calculate the body mass index for a pet.
+	*pre: The pet was created before and its attributes height and weight are not null neither height must be zero.
+	*post: The BMI is calculated.
+	*@return The pet body mass index. Returns -1 if the height is zero  due to the division on zero does not exist.
+	*/
+		
+	public double bodyMassIndex(){
+		
+	 double bodyMassIndex = ((getWeight())/(getHeight()*getHeight()));
+		
+	return bodyMassIndex;	
+		
+	}	
 			
 			
 	
