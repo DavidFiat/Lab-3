@@ -34,7 +34,7 @@ public class Main {
 	}
 		
 	/** 
-	*Description This method creates the test values for each object.
+	*Description This method creates the test values for each object. 
 	*post: The test values are saved in the program for prove other methods.
 	*/
 		

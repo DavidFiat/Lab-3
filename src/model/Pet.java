@@ -19,7 +19,7 @@ public class Pet {
 	private String type;
 	private int age;
 	private double weight;
-	private double height
+	private double height;
 	
 
 	
