@@ -88,9 +88,7 @@ public class MedicalRecord {
 	public Date getDate() {
 		return date;
 	}
-	public void setDate(Date date) {
-		this.date = date;
-	}
+	
 	
 	/**
 	* This method allows to know in which room the pet is. 
@@ -100,6 +98,14 @@ public class MedicalRecord {
 	public Room getRoom(){
 		return room;
 	} 
+	
+		/**
+	* This method allows to change the place of the pet.
+	* pre  : the param is different to null.
+	* pre: The record is already created.
+	* post: Pet's room is changed.
+	* @param room is where the pet is.
+	*/
 	
 	public void setRoom(Room room ) {
 		this.room = room;
