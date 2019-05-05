@@ -46,10 +46,11 @@ public class Veterinary {
 		this.name = name;
 	}
 	
-	public String addClient(Client newClient, ArrayList<Pet> newPets) {
+	public void addClient(Client newClient, ArrayList<Pet> newPets) {
 		
 	clients.add(newClient);
-	clients.get((clients.size()-1)).addPet(newPets);
+	//clients.get((clients.size()-1)).addPet(newPets);
+	
 	}
 
 

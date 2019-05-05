@@ -34,7 +34,7 @@ public class Main {
 	}
 		
 	/** 
-	*Description This method creates the test values for each object. 
+	*This method creates the test values for each object. 
 	*post: The test values are saved in the program for prove other methods.
 	*/
 		
@@ -53,7 +53,7 @@ public class Main {
 	
 	
 	/**
-	*Description This method ask to the client and save the actual date.
+	*This method ask to the client and save the actual date.
 	*pre: The day, the month and the year are given in numbers.
 	*pre: None of the data have a zero at the beginning.
 	*post: The current date is saved in the program.
@@ -69,7 +69,7 @@ public class Main {
 	            System.out.println ("Type actual year \n");
 	            int year = reader.nextInt();
 				Date actual = new Date (day,month,year);
-				vet1.setCurrentDate(actual);
+				//vet1.setCurrentDate(actual);
 				System.out.println (""+actual.getDay()+"/"+actual.getMonth()+"/"+actual.getYear());
 				showMenu();
 	}
@@ -77,7 +77,7 @@ public class Main {
 	
 	
 	/**
-	*Description This method shows a menu with all the options the client can select.
+	*This method shows a menu with all the options the client can select.
 	*pre: The option must be a number.
 	*post: The options selected are showed and the program is modified by the client.
 	*/
@@ -94,33 +94,33 @@ public class Main {
 			
 					
 			
-		System.out.println("                          ------------------------------------------------------------------- ");	
-		System.out.println("                         |                  Welcome to Mi Pequeña Mascota.                   |");	
-		System.out.println("                          ------------------------------------------------------------------- ");	
-		System.out.println("                         |              Please select one of the choices below.              |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |  1.To register a new client and hospitalize one of his/her pet.   |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                       2. To discharge a pet.                      |");	
-		System.out.println("                         |-------------------------------------------------------------------|");
-		System.out.println("                         |                  3. To see a room's availability.                 |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                   4. To register a new medicine.                  |");		
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                     5. To add a medical record.                   |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                   6. To see all medical records.                  |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                      7. To see a pet's data.                      |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                    8. To see the total price.                     |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |              9. To see hospitalization's earnings.               |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |               10. To see in which room is an animal.              |");	
-		System.out.println("                         |-------------------------------------------------------------------|");	
-		System.out.println("                         |                         11. To exit.                              |");	
-		System.out.println("                          -------------------------------------------------------------------"+"\n"+"\n");
+		System.out.println("             ------------------------------------------------------------------- ");	
+		System.out.println("            |                  Welcome to Mi Pequeña Mascota.                   |");	
+		System.out.println("            |------------------------------------------------------------------- ");	
+		System.out.println("            |              Please select one of the choices below.              |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |  1.To register a new client and hospitalize one of his/her pet.   |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                       2. To discharge a pet.                      |");	
+		System.out.println("            |-------------------------------------------------------------------|");
+		System.out.println("            |                  3. To see a room's availability.                 |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                   4. To register a new medicine.                  |");		
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                     5. To add a medical record.                   |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                   6. To see all medical records.                  |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                      7. To see a pet's data.                      |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                    8. To see the total price.                     |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |              9. To see hospitalization's earnings.               |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |               10. To see in which room is an animal.              |");	
+		System.out.println("            |-------------------------------------------------------------------|");	
+		System.out.println("            |                         11. To exit.                              |");	
+		System.out.println("             -------------------------------------------------------------------"+"\n"+"\n");
 		
 			
 			
@@ -177,12 +177,7 @@ public class Main {
 				
 				*/
 				
-				default :
-				
-				System.out.println("Please choose a number between 1-11");
-			    break;
-				
-				
+		
 			}
 		
 		
